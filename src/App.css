@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.App {
+    display: block;
+    text-align: center;
+    margin: 0;
+    background-color:hsla(0,100%,50%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(63,100%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+    position: absolute;
+    background-size: 100%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.container {
+    margin: auto;
+    max-width: 525px;
+    padding: 3rem 2rem;
+    border-radius: 4rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.59), rgba(213, 213, 213, 0.777));
+    margin-top: 8rem; 
+}
+
+@media screen and (max-width: 535px) {.container {max-width: 400px;}}
+@media screen and (max-width: 415px) {.container {max-width: 300px; margin-top: 2rem;} button {font-size: 1rem;}}
+
+.click-title {
+    padding-bottom: .5rem;
+}
+
+.dicebox {
+    padding: 0 0 2rem;
+    
+}
+
+
+.svg-inline--fa {
+    display: inline-flex;
+    justify-content: center;
+    height: 5rem;
+    padding: 10px;
+    color:rgb(33, 118, 121);
+}
+
+.icon-clicked {
+    color: rgb(89, 0, 148);
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 5px;
+    background: linear-gradient(180deg, rgb(226, 226, 226), white);
+    border: none;
+    border-radius: 1.3rem;
+}
+
+@media screen and (max-width: 535px) {button {font-size: 1rem;}}
+@media screen and (max-width: 415px) {button {font-size: .8rem;}}
+
+
+button:hover {
+    background: linear-gradient(180deg, rgba(199, 199, 199, 0.994), rgba(239, 239, 239, 0.981)); 
+}
+
+button:active {
+    background: linear-gradient(180deg, rgba(255, 183, 215, 0.896), rgb(253, 244, 123)); 
+}
+
+
